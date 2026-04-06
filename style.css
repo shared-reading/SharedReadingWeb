@@ -573,12 +573,13 @@ footer p {
 }
 
 .partner-logo {
-    height: 38px;
-    width: auto;
-    max-width: 150px;
-    object-fit: contain;
-    border-radius: 0;
-    box-shadow: none;
+    height: 48px !important;
+    width: auto !important;
+    max-width: 200px !important;
+    object-fit: contain !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    margin: 0 10px;
 }
 
 /* =======================================
