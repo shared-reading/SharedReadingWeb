@@ -204,14 +204,18 @@ img {
     align-items: center;
 }
 
-.logo {
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: var(--primary-dark);
-    text-decoration: none;
+.logo-link {
     display: flex;
     align-items: center;
-    gap: 10px;
+    text-decoration: none;
+}
+
+.nav-logo {
+    height: 45px;
+    width: auto;
+    object-fit: contain;
+    border-radius: 0;
+    box-shadow: none;
 }
 
 .nav-links {
@@ -532,6 +536,14 @@ footer p {
     color: rgba(255, 255, 255, 0.7);
     margin: 0;
     font-size: 0.9rem;
+}
+
+.footer-logo {
+    height: 60px;
+    width: auto;
+    margin-bottom: 15px;
+    border-radius: 0;
+    box-shadow: none;
 }
 
 /* =======================================
