@@ -211,12 +211,13 @@ img {
 }
 
 .nav-logo {
-    height: 32px;
-    width: auto;
-    max-width: 220px;
+    height: 48px !important;
+    width: auto !important;
+    max-width: 320px !important;
     object-fit: contain;
     border-radius: 0;
     box-shadow: none;
+    display: block;
 }
 
 .nav-links {
@@ -540,12 +541,13 @@ footer p {
 }
 
 .footer-logo {
-    height: 40px;
-    width: auto;
-    max-width: 150px;
+    height: 48px !important;
+    width: auto !important;
+    max-width: 160px !important;
     margin-bottom: 15px;
     border-radius: 0;
     box-shadow: none;
+    display: inline-block;
 }
 
 /* =======================================
