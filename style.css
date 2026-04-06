@@ -211,8 +211,9 @@ img {
 }
 
 .nav-logo {
-    height: 45px;
+    height: 32px;
     width: auto;
+    max-width: 220px;
     object-fit: contain;
     border-radius: 0;
     box-shadow: none;
@@ -539,8 +540,9 @@ footer p {
 }
 
 .footer-logo {
-    height: 60px;
+    height: 40px;
     width: auto;
+    max-width: 150px;
     margin-bottom: 15px;
     border-radius: 0;
     box-shadow: none;
