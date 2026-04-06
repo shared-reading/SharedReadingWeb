@@ -546,12 +546,13 @@ footer {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 25px;
+    gap: 30px;
     margin-bottom: 25px;
     background: rgba(255, 255, 255, 0.95);
-    padding: 15px 30px;
+    padding: 20px 30px;
     border-radius: var(--border-radius-lg);
-    max-width: 900px;
+    max-width: 1200px;
+    width: 95%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -563,23 +564,23 @@ footer p {
 }
 
 .footer-logo.main-logo {
-    height: 48px !important;
+    height: 70px !important;
     width: auto !important;
-    max-width: 160px !important;
-    margin: 0 10px;
+    max-width: 200px !important;
+    margin: 0 20px;
     border-radius: 0;
     box-shadow: none;
     display: inline-block;
 }
 
 .partner-logo {
-    height: 48px !important;
+    height: 45px !important;
     width: auto !important;
-    max-width: 200px !important;
+    max-width: 250px !important;
     object-fit: contain !important;
     border-radius: 0 !important;
     box-shadow: none !important;
-    margin: 0 10px;
+    margin: 0;
 }
 
 /* =======================================
