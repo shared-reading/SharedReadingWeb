@@ -545,8 +545,8 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    gap: 30px;
+    flex-wrap: nowrap; /* 強制不換行，確保五個橫排 */
+    gap: 20px;
     margin-bottom: 25px;
     background: rgba(255, 255, 255, 0.95);
     padding: 20px 30px;
@@ -555,6 +555,7 @@ footer {
     width: 95%;
     margin-left: auto;
     margin-right: auto;
+    overflow-x: auto; /* 螢幕過小時允許滑動而不跑版 */
 }
 
 footer p {
@@ -565,18 +566,17 @@ footer p {
 
 .footer-logo.main-logo {
     height: 70px !important;
-    width: auto !important;
-    max-width: 200px !important;
-    margin: 0 20px;
+    width: 70px !important;
+    object-fit: contain !important;
+    margin: 0 30px;
     border-radius: 0;
     box-shadow: none;
     display: inline-block;
 }
 
 .partner-logo {
-    height: 45px !important;
-    width: auto !important;
-    max-width: 250px !important;
+    height: 50px !important;
+    width: 180px !important; /* 強制統一看似尺寸 */
     object-fit: contain !important;
     border-radius: 0 !important;
     box-shadow: none !important;
