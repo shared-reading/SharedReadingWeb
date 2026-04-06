@@ -536,9 +536,24 @@ img {
    ======================================= */
 footer {
     text-align: center;
-    padding: 30px;
+    padding: 40px 5%;
     background: var(--text-main);
     color: white;
+}
+
+.footer-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-bottom: 25px;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 15px 30px;
+    border-radius: var(--border-radius-lg);
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 footer p {
@@ -547,14 +562,23 @@ footer p {
     font-size: 0.9rem;
 }
 
-.footer-logo {
+.footer-logo.main-logo {
     height: 48px !important;
     width: auto !important;
     max-width: 160px !important;
-    margin-bottom: 15px;
+    margin: 0 10px;
     border-radius: 0;
     box-shadow: none;
     display: inline-block;
+}
+
+.partner-logo {
+    height: 38px;
+    width: auto;
+    max-width: 150px;
+    object-fit: contain;
+    border-radius: 0;
+    box-shadow: none;
 }
 
 /* =======================================
