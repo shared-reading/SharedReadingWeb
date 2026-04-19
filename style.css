@@ -637,6 +637,14 @@ footer p {
     flex-shrink: 0;
 }
 
+.social-icon-img {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+    border-radius: 0;
+    box-shadow: none;
+}
+
 .facebook-wrap {
     background: linear-gradient(135deg, #1877f2, #0d5ebc);
     box-shadow: 0 8px 25px rgba(24, 119, 242, 0.35);
@@ -721,6 +729,40 @@ footer p {
 .line-btn:hover {
     transform: translateY(-3px);
     box-shadow: 0 10px 28px rgba(6, 199, 85, 0.45);
+    color: white;
+}
+
+.instagram-wrap {
+    background: linear-gradient(135deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+    box-shadow: 0 8px 25px rgba(220, 39, 67, 0.35);
+}
+
+.instagram-btn {
+    background: linear-gradient(135deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+    color: white;
+    box-shadow: 0 6px 20px rgba(220, 39, 67, 0.3);
+}
+
+.instagram-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 28px rgba(220, 39, 67, 0.45);
+    color: white;
+}
+
+.threads-wrap {
+    background: linear-gradient(135deg, #1a1a1a, #444444);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.threads-btn {
+    background: linear-gradient(135deg, #1a1a1a, #444444);
+    color: white;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.threads-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.35);
     color: white;
 }
 
