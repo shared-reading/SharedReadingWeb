@@ -857,6 +857,11 @@ footer p {
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
 }
 
+/* 新版 Threads Logo 為黑色，需反色讓它在深色背景顯示為白色 */
+.threads-wrap .social-icon-img {
+    filter: invert(1);
+}
+
 .threads-btn {
     background: linear-gradient(135deg, #1a1a1a, #444444);
     color: white;
