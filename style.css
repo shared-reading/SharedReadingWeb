@@ -184,8 +184,8 @@ img {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 50px;
-    background: rgba(255, 250, 245, 0.9);
+    padding: 12px 50px;
+    background: rgba(255, 250, 245, 0.95);
     backdrop-filter: blur(10px);
     z-index: 1000;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
@@ -193,7 +193,7 @@ img {
 }
 
 .navbar.scrolled {
-    padding: 15px 50px;
+    padding: 8px 50px;
 }
 
 .nav-container {
@@ -218,9 +218,9 @@ img {
 }
 
 .nav-logo {
-    height: 48px !important;
+    height: 60px !important;
     width: auto !important;
-    max-width: 320px !important;
+    max-width: 400px !important;
     object-fit: contain;
     border-radius: 0;
     box-shadow: none;
@@ -231,8 +231,47 @@ img {
     list-style: none;
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 12px;
+    margin-left: auto; /* 靠右對齊 */
 }
+
+/* 四頁導航按鈕 */
+.nav-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 9px 18px;
+    border-radius: 50px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    text-decoration: none;
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+    background: white;
+    transition: var(--transition);
+    white-space: nowrap;
+}
+
+.nav-btn:hover {
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(255, 154, 118, 0.35);
+}
+
+/* 目前所在頁面：橘色填充 */
+.nav-btn-active {
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    color: white;
+    border-color: transparent;
+    box-shadow: 0 4px 12px rgba(255, 154, 118, 0.4);
+}
+
+.nav-btn-active:hover {
+    opacity: 0.9;
+    transform: translateY(-2px);
+}
+
 
 .nav-links a:not(.btn-primary-small) {
     text-decoration: none;
